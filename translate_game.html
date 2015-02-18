@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+   COLLABORATORS:
+   none
+  -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Ready, Set, Translate !</title>
+    <link type="text/css" href="jquery/css/ui-lightness/jquery-ui-1.10.0.custom.css" rel="stylesheet" />
+    <link type="text/css" href="translate_game.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="jquery/js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery/js/jquery-ui-1.10.0.custom.min.js"></script>
+    <script type="text/javascript" src="dicts.json"></script>
+    <script type="text/javascript" src="translate_game.js"></script>
+
+  </head>
+  <body>
+    <!-- Your HTML here -->
+    <div id="title"> Translate from <font style="color:black"> LANGFROM </font> to <font style="color:black"> LANGTO </font> </div>
+
+    <div class='col' id="lCol">
+      <div class='colTitle'> LANGFROM </div>
+      <div class='curEntry'> espejo </div>
+      <div class='pastEntries'>
+          <div class='correct pastEntry'> calabaza </div> 
+          <div class='incorrect pastEntry'> postmodernidad </div>
+      </div>
+    </div>
+
+    <div class='col' id="cCol">
+      <div class='colTitle'> LANGTO </div>
+      <div class='curEntry'> 
+          <input type='text'>
+      </div>
+      <div class='pastEntries'>
+          <div class='correct pastEntry'> pumpkin </div> 
+          <div class='incorrect pastEntry'> phone </div>        
+      </div>
+    </div>
+
+    <div class='col' id="rCol">
+      <div class='colTitle'> Answer </div>
+      <div class='curEntry'>
+        <button type="button">See Answer</button>
+      </div>
+      <div class='pastEntries'>
+          <div class='correct pastEntry'> <span class="ui-icon ui-icon-check"></span> </div> 
+          <div class='incorrect pastEntry'> postmodernism </div>        
+      </div>
+    </div>
+
+  </body>
+</html>

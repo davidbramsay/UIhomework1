@@ -1,0 +1,42 @@
+html {
+    background-color: #eee;
+}
+
+/* Your CSS here */
+#title {
+	font-size: 3em;
+	margin:10px;
+	color: #505050;
+	margin-bottom: 20px;
+}
+
+.col{
+	float:left;
+	margin-left:10px;
+	margin-right: 100px;
+}
+
+.colTitle {
+	font-size: 2em;
+	margin-bottom: 15px;
+}
+
+.curEntry {
+	margin-bottom: 25px;
+}
+
+.pastEntry {
+	margin-bottom: 10px;
+}
+
+.correct{
+	color:blue;
+}
+
+.incorrect{
+	color:red;
+}
+
+#cCol .incorrect{
+	text-decoration: line-through;
+}
